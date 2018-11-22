@@ -1,0 +1,138 @@
+.parallax {
+    /* The image used */
+    background-image: url("madonna.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("milanback.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("nyfw.png");
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("offwhitewallpaper.jpg");
+
+    /* Set a specific height */
+    min-height: 4000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#fashionvideo{
+
+    text-align: center;
+    margin:auto;
+
+}
+
+#brand{
+
+    text-align: center;
+    margin:auto;
+    font-family: Helvetica;
+    font-size: 60px;
+
+
+}
+#offwhite{
+
+    text-align: center;
+    margin:auto;
+
+}
+
+#header {
+    
+    text-align: center;
+    margin:auto;
+    margin-top: 0px;
+    font-family: Didot;
+    font-size: 200px;
+    
+    
+    
+}
+
+img{
+  border-radius: 7%;
+}
+
+#topstories{
+    
+    text-align: center;
+    margin:auto;
+    font-size: 50px;  
+    transition: transform .2s;
+    }
+
+#topbrands{
+    
+    text-align: center;
+    margin:auto;
+    font-size: 40px;  
+    
+}
+
+#logo {
+  transition: transform .2s;
+}
+#logo:hover {
+  transform: scale(1.5);
+
+}
+
+#shoppingcenters{
+   text-align: center;
+    margin:auto;
+    font-size: 30px;  
+    
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:active{
+  color: black;
+}
+a:visited{
+  color: black;
+}

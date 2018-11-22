@@ -1,0 +1,106 @@
+body{
+  font-family: Didot;
+  height: 1500px;
+}
+.mySlides{
+  animation:fading 10s infinite}
+@keyframes fading{
+    0%{opacity:0}50%{opacity:1}100%{opacity:0}0%{opacity:0}
+  }
+#header {
+	 	
+  	text-align: center;
+  	margin:auto;
+    
+    font-size: 70px;
+
+    
+  	
+}
+
+#pages {
+  	margin : auto;	
+  	text-align: center;
+    font-size: 15px;
+  
+
+}
+
+#slideshow {
+    margin : auto;  
+    text-align: center;
+    margin-left: 300px;
+}
+
+
+#food {
+
+	display: inline-block; 
+  width: 25%;
+	border-style: solid;
+	border-color: black;
+  	
+  	text-align: center;
+  	border-width: 0px;
+  	height: 250px;
+  	margin : auto;
+  	margin-left: 150px;
+  	font-size: 40px;
+    border-radius: 30px;
+    
+  	
+
+}
+
+#fashion {
+	display: inline-block; width: 25%;
+	border-style: solid;
+	border-color: black;	
+  border-width: 0px;
+  	
+  	text-align: center;
+  	height: 250px;
+  	margin : auto;
+  	font-size: 40px;
+    border-radius: 30px;
+   
+     }
+
+#fun {
+	display: inline-block; width: 25%;
+	border-style: solid;
+	border-color: black;
+  border-width: 0px;
+  text-align: center;
+  height: 250px;
+  margin : auto;
+  font-size: 40px;
+	border-radius: 30px;
+  
+  
+}
+
+#divtext {
+
+  margin:auto;
+  margin-top:120px;
+}
+
+#atag:hover{
+  color:#fca753;
+} 
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.zoom {
+  padding: 1px;
+  transition: transform .2s;
+
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

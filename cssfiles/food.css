@@ -1,0 +1,248 @@
+body{
+  font-family: Didot;
+  height: 4000px;
+}
+img{
+  border-radius: 7%;
+}
+#header {
+    
+    text-align: center;
+    margin:auto;
+    font-size: 70px;
+
+}
+
+#foodvideo{
+
+    text-align: center;
+    margin:auto;
+
+}
+#featureddish {
+    
+    text-align: center;
+    margin:auto;
+    font-size: 20px;     
+}
+
+
+#bloggerpic{
+    
+    text-align: center;
+    margin:auto;
+     
+}
+
+
+#dishpic
+{
+  transition: transform .2s;
+  text-align: center;
+  margin:auto;
+  margin-left: 470px;
+  width: 30%;
+
+}
+#dishpic:hover {
+  transform: scale(1.1);
+
+}
+
+
+.parallaxdish{
+    /* The image used */
+    background-image: url("creme.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxblogger{
+    /* The image used */
+    background-image: url("bloggerback.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.grow1 {
+  padding: 2px 2px;
+  font-size: 20px;
+  white-space: nowrap;
+  height: 70px;
+  width: 100%;
+  float: left;
+  position: relative;
+  transition: height 1s;
+  -webkit-transition: height 1s;
+  text-align: center;
+  overflow: hidden;
+  
+
+}
+.grow1:hover {
+  height: 1800px;
+
+}
+
+#info1,#info2,#info3 {
+  font-size: 20px;
+
+}
+
+#res1 {
+ 
+  position: relative;
+  display: inline-block; 
+  width: 25%;
+  text-align: center;
+    border-width: 4px;
+    height: 400px;
+    margin : auto;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+#res1:hover #info1 {
+  opacity: 1;
+  visibility: visible;
+}
+#res1 #info1 {
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 100%;
+  opacity: 0;
+  padding: 2em;
+  position: absolute;
+  top: 0;
+  transition: opacity 1s ease, visibility 1s;
+  visibility: hidden;
+  width: 100%;
+}
+
+
+#res2 {
+ 
+  position: relative;
+  display: inline-block; 
+  width: 25%;
+  
+    text-align: center;
+    border-width: 4px;
+    height: 400px;
+    margin : auto;
+    margin-left: 90px;
+    font-size: 20px;
+
+}
+#res2:hover #info2 {
+  opacity: 1;
+  visibility: visible;
+}
+#res2 #info2 {
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 100%;
+  opacity: 0;
+  padding: 2em;
+  position: absolute;
+  top: 0;
+  transition: opacity 1s ease, visibility 1s;
+  visibility: hidden;
+  width: 100%;
+}
+
+
+#res3 {
+ 
+  position: relative;
+  display: inline-block; 
+  width: 25%;
+  
+    text-align: center;
+    border-width: 4px;
+    height: 400px;
+    margin : auto;
+    margin-left: 90px;
+    font-size: 20px;
+
+}
+#res3:hover #info3 {
+  opacity: 1;
+  visibility: visible;
+}
+#res3 #info3 {
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 100%;
+  opacity: 0;
+  padding: 2em;
+  position: absolute;
+  top: 0;
+  transition: opacity 1s ease, visibility 1s;
+  visibility: hidden;
+  width: 100%;
+}
+
+#res4{
+  display: inline-block; 
+  margin-left: 110px;
+  font-size :25px;
+  
+}
+#res5{
+  display: inline-block; 
+  margin-left: 100px;
+  font-size :25px;
+}
+#res6{
+  display: inline-block; 
+  margin-left: 150px;
+  font-size :25px;
+
+}
+#res7{
+  display: inline-block; 
+  margin-left: 150px;
+  font-size :25px;
+
+}
+#res8{
+  display: inline-block; 
+  margin-left: 290px;
+  font-size :25px;
+}
+#res9{
+  display: inline-block; 
+  margin-left: 290px;
+  font-size :25px;
+}
+#res10{
+  display: inline-block; 
+  margin-left: 230px;
+  font-size :25px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:active{
+  color: black;
+}
+a:visited{
+  color: black;
+}

@@ -1,0 +1,29 @@
+body{
+	font-family: Didot;
+}
+
+#heading
+{
+	text-align: center;
+    margin:auto;
+    font-size: 70px;
+
+}
+
+#header
+{
+	text-align: center;
+    margin:auto;
+    width: 70%;
+    font-size: 30px;
+
+}
+
+#contributers
+{
+	text-align: center;
+    margin:auto;
+    width: 60%;
+    font-size: 40px;
+
+}

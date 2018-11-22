@@ -1,0 +1,228 @@
+.headerparallax{
+    /* The image used */
+    background-image: url("funheader.png");
+
+    /* Set a specific height */
+    min-height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+video{
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
+  width: 800px;
+
+}
+
+#concertheader{
+    
+    text-align: center;
+    margin:auto;
+    font-size: 30px;     
+}
+
+.concertparallax{
+    /* The image used */
+    background-image: url("concerts.jpg");
+
+    /* Set a specific height */
+    min-height: 1200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#offwhite{
+
+    text-align: center;
+    margin:auto;
+
+}
+
+
+
+#header {
+    
+    text-align: center;
+    margin:auto;
+    font-size: 90px;
+
+}
+
+img{
+  border-radius: 7%;
+}
+
+.grow1 {
+  padding: 2px 2px;
+  font-size: 20px;
+  white-space: nowrap;
+  height: 70px;
+  width: 100%;
+  float: left;
+  position: relative;
+  transition: height 0.7s;
+  -webkit-transition: height 0.7s;
+  text-align: center;
+  overflow: hidden;
+  
+
+}
+.grow1:hover {
+  height: 1800px;
+
+}
+
+
+
+#res1 {
+ 
+  position: relative;
+  display: inline-block; 
+  width: 25%;
+  
+    text-align: center;
+    border-width: 4px;
+    height: 400px;
+    margin : auto;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+#res1:hover #info1 {
+  opacity: 1;
+  visibility: visible;
+}
+#res1 #info1 {
+  background-color: #FFF;
+  box-sizing: border-box;
+  height: 100%;
+  opacity: 0;
+  padding: 2em;
+  position: absolute;
+  top: 0;
+  transition: opacity .5s ease, visibility .5s;
+  visibility: hidden;
+  width: 100%;
+}
+
+
+#res2 {
+ 
+  position: relative;
+  display: inline-block; 
+  width: 25%;
+  
+    text-align: center;
+    border-width: 4px;
+    height: 400px;
+    margin : auto;
+    margin-left: 90px;
+    font-size: 20px;
+
+}
+#res2:hover #info2 {
+  opacity: 1;
+  visibility: visible;
+}
+#res2 #info2 {
+  background-color: #FFF;
+  box-sizing: border-box;
+  height: 100%;
+  opacity: 0;
+  padding: 2em;
+  position: absolute;
+  top: 0;
+  transition: opacity .5s ease, visibility .5s;
+  visibility: hidden;
+  width: 100%;
+}
+
+
+#res3 {
+ 
+  position: relative;
+  display: inline-block; 
+  width: 25%;
+  
+    text-align: center;
+    border-width: 4px;
+    height: 400px;
+    margin : auto;
+    margin-left: 90px;
+    font-size: 20px;
+
+}
+#res3:hover #info3 {
+  opacity: 1;
+  visibility: visible;
+}
+#res3 #info3 {
+  background-color: #FFF ;
+  box-sizing: border-box;
+  height: 100%;
+  opacity: 0;
+  padding: 2em;
+  position: absolute;
+  top: 0;
+  transition: opacity .5s ease, visibility .5s;
+  visibility: hidden;
+  width: 100%;
+}
+
+#res4{
+  display: inline-block; 
+  margin-left: 120px;
+  position: relative;
+
+}
+#res5{
+  display: inline-block; 
+  margin-left: 190px;
+  position: relative;
+}
+#res6{
+  display: inline-block; 
+  margin-left: 160px;
+
+}
+/*#res12{
+  display: inline-block;  
+  margin-left: 120px;
+  margin-right: 900px;
+  position: relative;
+
+}
+#res13{
+  display: inline-block; 
+  margin-left: 490px;
+  margin-right: 500px;
+  position: relative;
+}
+#res14{
+  display: inline-block;  
+  margin-left: 960px;
+  margin-right: 100px;
+
+} */
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:active{
+  color: black;
+}
+a:visited{
+  color: black;
+}
